@@ -12,23 +12,51 @@
 
 ---
 
-## 🧑‍💻 About Me – Freelance Web Developer
+## 👨‍💻 About Me
 
-Hi! I’m **Atharv Mehrotra**, a passionate freelance **MERN Stack Developer** from 🇮🇳 India. I specialize in building high-performance, responsive, and modern web applications.
+I’m **Atharv Mehrotra**, a dedicated **MERN Stack Developer** and open-source enthusiast with a strong foundation in full-stack web development and modern cloud-based technologies. I'm passionate about building performant, scalable, and user-focused web applications.
+<p align="center">
+  <a href="https://your-resume-link.com" target="_blank">
+    <img src="https://img.shields.io/badge/Resume-%20Click%20to%20View-orange?style=for-the-badge&logo=adobeacrobatreader" />
+  </a>
+</p>
 
-Whether you're a startup, business, or individual looking to bring your digital ideas to life — I’m here to help!
 
-### 💼 Services Offered
-- ✅ **Custom Website Development**
-- 🔁 **Website Maintenance & Upgrades**
-- 📱 **Responsive Design for All Devices**
-- 🌐 **Frontend & Backend Integration**
-- ⚙️ **Bug Fixing & Optimization**
-- ☁️ **Deployment & Hosting**
-- 🛠️ **UI/UX Improvements**
-- 📊 **Dashboard/Admin Panel Creation**
+### 🔧 I Specialize In:
+- React.js, Tailwind CSS, Node.js, Express
+- MongoDB
+- Git, AWS, Vercel
+- CI/CD, and team collaboration
+### 🧠 Strengths
+- Excellent communication & collaboration skills
+- Quick learner and strong problem-solving mindset
+- Agile and remote working experience
 
-> _“Let’s build something great together!”_
+📌 **Currently open to internships, remote roles, and exciting collaborations.**
+
+---
+
+## 🏢 Experience
+
+### 🔹 Intern & Contributor – [Ention Technologies](https://github.com/atharvix/ention2.git)
+- 💻 Built the company’s official website from scratch using MERN stack
+- ⚙️ Implemented responsive UI, integrated APIs, and deployed it on Vercel
+- ✅ Collaborated with the tech team in an Agile workflow
+
+📂 **Repository:** [Ention Website](https://github.com/atharvix/ention2.git)
+
+---
+
+## 💼 Freelance Services
+
+- 🌐 Full-Stack Website Development
+- 📱 Responsive Web Design (Mobile-first)
+- 🛠️ API Integration & Deployment
+- 🔧 Bug Fixes & Optimization
+- 📊 Admin Dashboards / CMS Panels
+- 🚀 Hosting on Vercel, Netlify, AWS
+
+> Let’s build something great together — get in touch!
 
 ---
 
