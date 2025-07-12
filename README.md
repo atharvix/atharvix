@@ -22,11 +22,6 @@
 - **DBMS**
 - **Linux**
 - **React**
-
-📫 **Reach me at**:  
-`mehrotraatharv15@gmail.com`  
-`atharvmehrotra@jklu.edu.in`
-
 ---
 
 ## 🌐 Connect with me:
@@ -40,6 +35,9 @@
   </a>
   <a href="https://leetcode.com/u/atharvix/" target="_blank">
     <img src="https://skillicons.dev/icons?i=leetcode" alt="LeetCode" />
+  </a>
+  <a href="mehrotraatharv15@gmail.com">
+    <img src="https://img.shields.io/badge/-Email-D14836?style=flat-square&logo=gmail&logoColor=white" alt="Email" />
   </a>
 </p>
 
