@@ -16,10 +16,11 @@
 
 I’m **Atharv Mehrotra**, a dedicated **MERN Stack Developer** and open-source enthusiast with a strong foundation in full-stack web development and modern cloud-based technologies. I'm passionate about building performant, scalable, and user-focused web applications.
 <p align="center">
-  <a href="https://your-resume-link.com" target="_blank">
+  <a href="https://drive.google.com/file/d/12NzDw-UczKXZtr1pZCwm624KaHfAJ9Ad/view?usp=sharing" target="_blank">
     <img src="https://img.shields.io/badge/Resume-%20Click%20to%20View-orange?style=for-the-badge&logo=adobeacrobatreader" />
   </a>
 </p>
+
 
 
 ### 🔧 I Specialize In:
