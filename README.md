@@ -3,7 +3,7 @@
 </h1>
 
 <h3 align="center">
-  A passionate <span style="color:#61DAFB;">MERN Stack</span> Developer from 🇮🇳 India
+  A passionate <span style="color:#61DAFB;">MERN Stack</span> Developer from India
 </h3>
 
 <p align="center">
