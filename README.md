@@ -104,19 +104,21 @@ I’m **Atharv Mehrotra**, a dedicated **MERN Stack Developer** and open-source 
 
 ---
 
-## 🏅 Achievements
-
-<p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=atharvix&theme=radical&no-frame=true&no-bg=true&margin-w=10&row=1&column=7" />
-</p>
-
----
-
 ## 📊 GitHub Stats
 
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api/top-langs?username=atharvix&show_icons=true&locale=en&layout=compact&theme=radical" width="400" />
   <img src="https://github-readme-stats.vercel.app/api?username=atharvix&show_icons=true&locale=en&theme=radical" width="450" />
 </p>
+
+![Atharv's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=atharvix&theme=react-dark)
+
+---
+
+## ⚡ Fun Facts
+- 💻 First line of code: `printf("Hello World!");`
+- 🎵 Love coding with music in the background
+- 🏏 Big fan of cricket & chess
+- ☕ Runs on coffee + late-night debugging
 
 ---
