@@ -9,24 +9,64 @@ jobs:
       issues: write
       pull-requests: write
     steps:
+      # Step 1: First-time contributor greeting
       - uses: actions/first-interaction@v1
         with:
           repo-token: ${{ secrets.GITHUB_TOKEN }}
           issue-message: |
             👋 Hey there, welcome to the project!  
             
-            Thanks for opening your very first issue 🎉  
+            Thanks for opening your **first issue** 🎉  
             We really appreciate your contribution.  
-            
-            🔗 While you’re here, don’t forget to check out our [CONTRIBUTING.md](./CONTRIBUTING.md) guidelines.  
-            
+
+            🔗 Don’t forget to check out our [CONTRIBUTING.md](./CONTRIBUTING.md) guide.  
             Let’s build something awesome together 🚀
           pr-message: |
-            🎉 Woohoo! Thanks for submitting your very first PR 🚀  
+            🎉 Woohoo! Thanks for submitting your **first PR** 🚀  
 
-            Your contribution means a lot to us ❤️  
+            Your contribution means a lot ❤️  
             Our maintainers will review it soon.  
 
-            🛠️ Tip: Make sure your code follows best practices and matches the project style.  
-
+            🛠️ Tip: Make sure your code follows best practices and project style.  
             Keep contributing, keep innovating ⚡
+
+      # Step 2: Returning contributor greeting
+      - name: Returning contributor message
+        if: github.event_name == 'issues' || github.event_name == 'pull_request_target'
+        uses: actions/github-script@v7
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          script: |
+            const user = context.payload.sender.login;
+            const issueOrPrNumber = context.issue.number;
+            const isPR = !!context.payload.pull_request;
+
+            // Skip if it's the contributor's first interaction (first-interaction already handled it)
+            const events = await github.rest.activity.listRepoEvents({
+              owner: context.repo.owner,
+              repo: context.repo.repo
+            });
+
+            const userEvents = events.data.filter(e => e.actor.login === user);
+
+            if (userEvents.length > 1) {
+              const message = isPR
+                ? `👋 Welcome back @${user}! Thanks for another PR 🎉\nWe appreciate your continued contributions 🚀`
+                : `🙌 Hey @${user}, welcome back! Thanks for opening another issue 📝\nYour dedication keeps the project improving 💡`;
+
+              if (isPR) {
+                await github.rest.issues.createComment({
+                  owner: context.repo.owner,
+                  repo: context.repo.repo,
+                  issue_number: issueOrPrNumber,
+                  body: message
+                });
+              } else {
+                await github.rest.issues.createComment({
+                  owner: context.repo.owner,
+                  repo: context.repo.repo,
+                  issue_number: issueOrPrNumber,
+                  body: message
+                });
+              }
+            }
