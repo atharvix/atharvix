@@ -111,18 +111,6 @@ I’m **Atharv Mehrotra**, a dedicated **MERN Stack Developer** and open-source 
 
 ---
 
-<div align="center">
-  <img src="https://raw.githubusercontent.com/atharvix/atharvix/output/github-contribution-grid-snake-dark.svg" alt="Contribution Snake" />
-</div>
-
-## 🏅 Achievements
-
-<p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=atharvix&theme=radical&no-frame=true&no-bg=true&margin-w=10&row=1&column=7" />
-</p>
-
----
-
 ## 📊 GitHub Stats
 
 ![Atharv's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=atharvix&theme=react-dark)
