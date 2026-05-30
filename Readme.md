@@ -69,9 +69,8 @@ I’m **Atharv Mehrotra**, a dedicated **MERN Stack Developer** and open-source 
 <p align="left">
     <a href="https://linkedin.com/in/atharvmehrotra27" target="blank">
     <img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="atharvmehrotra27" width="35" />
-  </a>
-  <a href="https://atharvix-portfolio.vercel.app/" target="blank">
-    <img align="center" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/chrome/chrome-original.svg" alt="portfolio" width="35" />
+  <a href="https://atharvix-portfolio.vercel.app" target="_blank">
+    <img align="center" src="https://raw.githubusercontent.com/atharvix/atharvix/main/assets/vite.svg" alt="portfolio" width="35" />
 </a>
   <a href="https://www.instagram.com/atharv.mehrotra27/" target="blank">
     <img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="atharv.mehrotra27" width="35" />
