@@ -120,7 +120,7 @@ I’m **Atharv Mehrotra**, a dedicated **MERN Stack Developer** and open-source 
 
 ## 📊 GitHub Stats
 
-![Atharv's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=atharvix&theme=react-dark)
+[![GitHub Commits Badge](https://ghcommits.com/api/badge/atharvix.svg)](https://ghcommits.com/u/atharvix)
 
 ---
 
